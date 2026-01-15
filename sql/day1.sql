@@ -106,13 +106,5 @@ create table tickets (
     id int AUTO_INCREMENT primary KEY,
     status varchar(50) default 'open' check (status >= 1 and status <=5)
 );
--- Create a table Employee_Details where:
--- emp_id is AUTO_INCREMENT
--- email is UNIQUE
--- emp_name is NOT NULL
- create  table employee_details (
-    emp_id int auto_increment primary KEY,
-    emp_name VARCHAR(50) NOT NULL,
-    email varchar(50) UNIQUE
- );
+
 
