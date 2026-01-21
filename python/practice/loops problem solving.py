@@ -48,7 +48,7 @@
 #     print("its a prime")
 # else:
 #     print("not prime")
-# print(count)
+# # print(count)
 
 "factor"
 
@@ -109,5 +109,95 @@
 #         print(h[i])
 #         # if h == vowels:
 #         #     print("it is in vowels",'==',h[i])
+
+
+# start = int(input("Enter starting number: "))
+# end = int(input("Enter ending number: "))
+
+# for num in range(start, end + 1):
+#     count = 0
+#     for i in range(1, num + 1):
+#         if num % i == 0:
+#             count += 1
+#     if count == 2:
+#         print(num, end=" ")
+
+# for i in range(10,20):
+#     count=0
+#     for y in range(1,i):
+#         if i%y==0:
+#             count+=1
+#     if count ==1:
+#         print(i)
+# print(count)
+        
+# s =['python','fullstack','java','c++']
+
+
+# vowels='AEIOU'.lower()
+# # count="
+# for i in s:
+#     count=0
+#     for y in i:
+#         if y in vowels:
+#             count+=1
+#     if count>1:
+#         print(i)
+           
+        
+
+
+
+# for i in s:
+#     temp=int(i)
+#     for y in range(s[0][temp]):
+#         temp2=int(y)
+#         if temp%2==0:
+#             print(i)
+
+# for i in range(len(s)):
+#     # temp=str(i)
+#     if i%2!=0:
+#         print(s[i])
+
+
+# s=122
+# l=str(s)
+# m=l[::-1]
+# if s==int(m):
+#     print("its palindrome")
+# else:
+#     print("not palindrom")
+
+
+# start =1
+# end = 1000
+# for i in range(100,1000+1):
+#     pali = str(i)
+#     m =pali[::-1]
+#     if i ==int(m):
+#         print(i)
+#     # else:
+#     #     print("not a palidrom")
+
+# # n = 153
+# for i in range(100,500):
+#     m = len(str(i))
+#     sum=0
+#     for x in str(i):
+#         sum=sum + int(x) ** m
+#     if sum==i:
+#         print(sum)
+
+for i in range(1,6):
+    for y in range(1,i+1):
+        print(y,end="")
+    print()
+    
+
+
+
+
+
 
 
