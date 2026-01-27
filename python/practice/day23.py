@@ -65,8 +65,33 @@
 #     a+=1
 
 
-a ="python"
-n = 0
-while n < len(a) -1:
-    print(a[n])
-    n+=1
+# a ='python'
+# n = 0
+# while n <len(a):
+#     if a[n] in "aeiouAEIOU":
+#         print(a[n])
+#     n+=1
+
+"transfer statments"
+
+
+
+# for i in range(1,10):              # terminates loop imedietly
+#     if i==5:
+#         break
+#     print(i)
+
+
+# for i in range (1,10):
+#     if i == 5:                 # it terminates selected loop
+#         continue
+#     print(i)
+
+# for i in range (1,10):
+#     pass                        # just for hold the place
+
+
+for x in range (1,20):
+    if x % 2 ==0:
+        continue
+    print(x)
