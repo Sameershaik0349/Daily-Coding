@@ -64,10 +64,10 @@
 # for i in d:
 #     print(g.split())
 
-"is upper or is lower" # alternate method for assic values
-g = "SaMeeR sAhEb"
-for i in g:
-    if i.isupper():
-        print(i)
-    # elif i.islower():
-    #     print(i)
+# "is upper or is lower" # alternate method for assic values
+# g = "SaMeeR sAhEb"
+# for i in g:
+#     if i.isupper():
+#         print(i)
+#     # elif i.islower():
+#     #     print(i)
