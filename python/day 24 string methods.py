@@ -23,7 +23,6 @@
 # f = "pYtHoN"
 # out=""
 # for i in f:
-
 #     if ord(i) >=97 and ord(i)<=122:
 #         d = ord(i) -32 
 #         out+=chr(d)
@@ -34,13 +33,12 @@
 
 "finding a length without using len"
 
-# p ='sameer saheb'
-# count =0
-# for i in p:
-#     print(p[i])
-#     # if i>=0:
-#     count+=1
-# print(count)
+p ='sameer saheb'
+count =0
+for i in p:
+   if i in p:
+      count+=1
+print(count)
 
 # n = 5
 # line = '*' * 1
