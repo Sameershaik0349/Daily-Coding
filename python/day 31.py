@@ -212,3 +212,15 @@
 #     k.append(rev)
 # print(k)
 # print("".join(k))
+
+# g ="123"
+# num=0
+# for i in g:
+# #     num = num * 10 +(ord(i)-ord("0"))
+# # print(num)
+#     print(ord(i))
+
+
+f = "pyhton devlopper"
+d = f.capitalize()
+print(d)

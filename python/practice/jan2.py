@@ -57,7 +57,7 @@
 # time.sleep(2) 
 # print(res)
 
-"tuple"
+# "tuple"
 # sameer=('sameeer','saheb',(11000000,'sameeeeeer'))
 # print(sameer[2])
 # print(sameer[2][1][0:3])
