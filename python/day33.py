@@ -79,11 +79,13 @@
 
 
 # k=[10,-12,-8,-9,13,14]
-# neg=[]
+# fin=[]
 # for i in k:
-#     if i>0:
-#         neg.append(i)
-# print(neg)
+#     if i<=0:
+#         fin.append(0)
+#     else:
+#         fin.append(i)
+# print(fin)
 
 # # k=[1,0,1,0,1,1,0,0,1]
 # # new=[]
@@ -97,11 +99,40 @@
 
 
 
-k=[1,0,1,0,1,1,0,1,0,1,1,0]
-for i in range(len(k)):
-    for j in range(i+1,len(k)):
-        if k[i] > k[j]:
-            k[i],k[j]=k[j],k[i]
-print(k)
+# k=[1,0,1,0,1,1,0,1,0,1,1,0]
+# for i in range(len(k)):
+#     for j in range(i+1,len(k)):
+#         if k[i] > k[j]:
+#             k[i],k[j]=k[j],k[i]
+# print(k)
         
+# Find the second largest and second smallest number in a list.
 
+lis=[10,20,30,40,50,90,60]
+max1=lis[0]
+max2=lis[0]
+min1=lis[0]
+min2=float('inf')
+for i in lis:
+    if i > max1:
+        max2=max1
+        max1=i
+    elif i >max2 and i!=max1:
+        max2=i
+    if i < min1:
+        min2=min1
+        min1=i
+    elif i < min2 and i!=min1:
+        min2=i
+print("max2",max2)
+print("max1",max1)
+print("mmin1",min1)
+print("min2",min2)
+
+
+
+# for i in range(len(lis)-1):
+#     for j in range(i+1,len(lis)):
+#         if lis[i]>lis[j]:
+#             lis[i],lis[j]=lis[j],lis[i]
+# print(lis)
