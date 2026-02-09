@@ -19,10 +19,10 @@
 # #         print(i)
 
 
-# # c=0b10101
-# # print(c)
-# # t=int (input("88888"))
-# # print(t)
+# c=0b10101
+# print(c)
+# t=int (input("88888"))
+# print(t)
 
 
 # d={'sameer':{'telugu':123,'hin':12334,'eng':1234567}}

@@ -21,4 +21,3 @@ UPDATE employee SET city = 'Delhi' WHERE emp_id = 107;
 -- multirow -----  condition returns a single col and more than one row use (in,not in)
 select * from employee where city in
 (select city from employee where emp_id = 101 or emp_id = 104);
-
