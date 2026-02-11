@@ -38,3 +38,12 @@ update emp set department ='it' where name ='sameer';
 -- too remove view
 
 drop view salary;
+
+
+-- tooo see all view tables if we forget
+
+use information_schema;  -------all are store in in this information_schemaa
+
+show tables;
+
+select * from views where table_schema ='sub_quries'     -----too see view tables in SPECIFIC dstatbase
