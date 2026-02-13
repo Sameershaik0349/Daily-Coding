@@ -152,21 +152,38 @@ print(result)'''
 #     res[keys[i]]=[values[i]]
 # print(res)
 
+# prime problem
 
-# j=[11,12,13,14]
-# temp={}
-# for i in (1,j):
-#     count=0
-#     for x in range(1,i):
-#         if i%x ==0:
-#             count+=1
-#     if count==1:
-#         temp[i]={'i':"prime"}
-#     else:
-#         temp[i]={'i':"not a prime"}
-# print(temp)
+j=[11,12,13,14]
+temp={}
+for i in j:
+    count=0
+    for x in range(1,i):
+        if i%x ==0:
+            count+=1
+    if count==1:
+        temp[i]="prime"
+    else:
+        temp[i]="not a prime"
+print(temp)
 
-        
+''''j = [11, 12, 13, 14]
+temp = {}
+
+for n in j:
+    if n < 2:
+        temp[n] = "not a prime"
+        continue
+
+    for i in range(2, n):
+        if n % i == 0:
+            temp[n] = "not a prime"
+            break
+    else:
+        temp[n] = "prime"
+
+print(temp)
+'''
 
 # d ='sucess' 
 # cou={}
