@@ -21,3 +21,20 @@ UPDATE employee SET city = 'Delhi' WHERE emp_id = 107;
 -- multirow -----  condition returns a single col and more than one row use (in,not in)
 select * from employee where city in
 (select city from employee where emp_id = 101 or emp_id = 104);
+
+show DATABASEs;
+SELECT table_schema, table_name
+FROM information_schema.tables
+WHERE table_name = 'employee';
+
+
+use subquery;
+
+
+
+select * from employee;
+select * from employee where city In
+(select city from employee where emp_name='neha');
+
+
+select 
