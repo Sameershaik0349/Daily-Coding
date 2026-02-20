@@ -14,10 +14,10 @@
 #     print(c)
 # add(1,1)
 
-def mul_sub(x,y):
-    e = x-y
-    d=x*y
-    return e,d
-result1,result2=mul_sub(1,1)
-print(result1,result2)
+# def mul_sub(x,y):
+#     e = x-y
+#     d=x*y
+#     return e,d
+# result1,result2=mul_sub(1,1)
+# print(result1,result2)
 
