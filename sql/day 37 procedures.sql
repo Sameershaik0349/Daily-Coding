@@ -55,6 +55,7 @@ end$$
 DELIMITER;
 call fun(34,"rana","actor",960000,50,"mahishmathi");
 select * from emp;
+drop procedure fun;
 
 -----------------update
 delimiter $$;
@@ -69,3 +70,38 @@ select * from emp;
 
 
 drop PROCEDURE new;
+
+
+DELIMITER $$
+create Procedure sameera()
+begin
+select * from emp where salary > 70000;
+end $$
+DELIMITER;
+
+call sameera()
+
+
+drop Procedure sameera;
+
+
+DELIMITER $$
+create procedure sam(a int)
+begin
+select * from emp where age > a;
+end$$
+DELIMITER;
+
+call sam(30)
+
+
+DELIMITER $$
+create procedure inserting1(a int,b varchar(20),c varchar(20),d FLOAT,e int,f varchar(20))
+begin
+insert into emp values(a,b,c,d,e,f);
+end$$
+delimiter;
+call inserting1(35,"sameeeer",'sdDcsd',123456,2324,"DFSGVX");
+call inserting1;
+
+select * from emp;
