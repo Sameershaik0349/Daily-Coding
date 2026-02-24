@@ -91,7 +91,19 @@
 #     pass                        # just for hold the place
 
 
-for x in range (1,20):
-    if x % 2 ==0:
-        continue
-    print(x)
+# for x in range (1,20):
+#     if x % 2 ==0:
+#         continue
+#     print(x)
+
+
+# count =0
+# for i in range(1,101):
+#     count+=i
+# print(count)
+
+
+n = int(input('Give a number:'))
+sum = n*(n+1)/2
+print(sum)
+
