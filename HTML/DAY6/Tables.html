@@ -1,0 +1,86 @@
+<!-- 
+TABLES:-
+*arrange the data in rows and columns
+table tags:
+table --sytax
+thead
+tbody
+tfoot --not mandatory
+
+th -table heading
+tr -table rows
+td -table data
+caption -it is used for tiile for the tables
+---------------------------------------------------
+attributes:-  provide additional info 
+
+border  --- to give structure
+style
+border-collapse   -- too collapse the border
+cellspacing ----space between each cell
+cellpaading  --- space inside the element like space between content and cell boder
+align   ---contains right //center// left ---use for inner datta
+rowspan -- merging two or more rows
+colspan merging two or more colo
+ we can insert images in tables also
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY6</title>
+</head>
+
+<body>
+    <center>
+        <h1>TABLES</h1>
+        <table border="2" style="border-collapse: collapse;" cellpadding="8" bgcolor="lightgreen" width="500">
+            <thead>
+                <tr>
+                    <th colspan="2">sNAME</th>
+                    <!-- <th>name</th> -->
+                    <th>course</th>
+                    <th>year</th>
+                </tr>
+            </thead>
+            <tbody align="center">
+                <tr>
+                    <td>1</td>
+                    <td>sameer
+                        <img src="" alt="hello">
+                    </td>
+                    <td rowspan="2">aiml</td>
+                    <td>2026</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>shaik</td>
+                    <!-- <td>ai</td> -->
+                    <td>2026</td>
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+    </center>
+</body>
+
+</html>
