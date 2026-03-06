@@ -25,5 +25,15 @@ for i in range(len(s)):
 #           print(i)
 
 
-for i in range(-10,-1):
-    print(i)
+# for i in range(-10,-1):
+#     print(i)
+
+
+n=(int(input("enter a value")))
+l=[]
+for i in range(0,n):
+    for j in range(2,i+1):
+        if i%j!=0:
+            continue
+    l.append(i)
+print(l[0])    

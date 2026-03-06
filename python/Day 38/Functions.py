@@ -43,9 +43,59 @@ outer() #1
 
 
 
-n=0
+'''n=0
 while n<=5:
     n+=1
     if n%2==0:
         continue
-    print(n)
+    print(n)'''
+
+'''def is_prime(n):
+    if n <= 1:
+        return "Not Prime"
+    
+    for i in range(2, n):
+        if n % i == 0:
+            return "Not Prime"
+    
+    return "Prime"
+
+print(is_prime(4))'''
+
+'''
+def sort_list(arr):
+    
+    n = len(arr)
+    
+    for i in range(n):
+        for j in range(i+1, n):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]
+                
+    return arr
+
+print(sort_list([5,2,8,1,3]))'''
+
+
+
+def binary_search(arr, target):
+    
+    low = 0
+    high = len(arr) - 1
+    
+    while low <= high:
+        
+        mid = (low + high) // 2
+        
+        if arr[mid] == target:
+            return mid
+        
+        elif arr[mid] < target:
+            low = mid + 1
+        
+        else:
+            high = mid - 1
+            
+    return -1
+
+print(binary_search([1,2,3,4,5,6,7], 5))
