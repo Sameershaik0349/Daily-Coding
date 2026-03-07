@@ -7,7 +7,14 @@ user define
 .py
 ---------------------------------------------------------
 "predefine" ------//bulid in modules   ////software on pyhton
-os,random,path os datetime time
+os,path os datetime time
+
+randoms:-
+randint ---betw in number
+random --number
+randuniform ----float betw
+random.choice-----char
+        
 ---------------------------------------------
 tirdparty
 separted installed modules
@@ -82,7 +89,6 @@ while True:
     player1=" "
     l1=random.randint(1,10)
     player1+=l1
-    if 
     player2=((input("pres enter")))
     l2=random.randint(1,10)
     l2=player2
