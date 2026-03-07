@@ -13,7 +13,7 @@ randoms:-
 randint ---betw in number
 random --number
 randuniform ----float betw
-random.choice-----char
+random.choice----choose random names
         
 ---------------------------------------------
 tirdparty
