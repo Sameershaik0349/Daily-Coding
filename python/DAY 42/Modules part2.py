@@ -60,5 +60,18 @@ passwors sum
 
 
 import pyttsx3
+import time
+en = pyttsx3.init()
+en.setProperty('rate',50)
+
+voices = en.getProperty('voices')
+en.setProperty('voice',voices[0].id)
+en.say('hi')
+en.runAndWait()
 
 
+# l = ['vinay','raj','mohan']
+# for x in l:
+#   en.say(x)
+#   time.sleep(3)
+#   en.runAndWait()
