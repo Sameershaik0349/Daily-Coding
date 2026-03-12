@@ -1,0 +1,57 @@
+.Header {
+            display: flex;
+            background-color: aquamarine;
+            justify-content: space-between;
+            padding: 10px 20px;
+            align-items: center;
+        }
+
+        h1 {
+            display: flex;
+            align-items: center;
+        }
+
+        ul {
+            display: flex;
+            gap: 20px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        li {
+            list-style: none;
+        }
+
+
+        .parent {
+            display: flex;
+        }
+
+        .section {
+            background-color: aqua;
+            border: 2px solid;
+            padding: 20px;
+        }
+
+        .article {
+            border: 2px solid;
+            padding: 10px;
+            background-color: wheat;
+        }
+
+        .aside {
+            border: 2px solid;
+            width: 200px;
+            padding: 10px;
+            background-color: brown;
+        }
+
+        .footer {
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
