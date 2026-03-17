@@ -1,6 +1,60 @@
-.box{
+.outer{
     width: 200px;
     height: 200px;
     border: 2px solid;
-    ;
+    text-align: center;
+    border-radius: 20%;
+    margin: 10px;
+}
+.inner{
+    width: 100px;
+    height: 100px;
+    border:2px solid;
+    border-radius: 50%;
+    margin: auto;
+}
+
+#first{
+    background-color: antiquewhite;
+}
+
+.parents{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: ;
+}
+
+#hexa{
+    background-color: bisque;
+}
+#rgb{
+    background-color:rgb(100,50, 200)
+
+}
+#rgba{
+    background-color: rgba(100,50, 200,0.4);
+}
+
+#hsl{
+    background-color: hsl(30,39%, 47%);
+}
+#hsla{
+    background-color: hsla(30, 39%, 47%, 0.3);
+}
+
+#lg{
+    background:linear-gradient(to left,red,yellow,green);
+}
+
+
+#rlg{
+    background:repeating-linear-gradient(red 20%,yellow 40%,blue 10%);
+}
+    
+#rg{
+    background: radial-gradient(red,blue,yellow);
+}
+#rrg{
+    background: repeating-radial-gradient(black,white 10%);
 }
