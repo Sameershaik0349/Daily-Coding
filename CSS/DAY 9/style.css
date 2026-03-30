@@ -1,7 +1,7 @@
 div{
     width: 500px;
     height: 500px;
-    background-color: brown;
+    background-image: url("../ASSETS/MV5BYzU2MzZiOTEtZTgwOS00MTdlLWJmMDQtNjdjOGIxYTA0NTYxXkEyXkFqcGc@._V1_.jpg");
     border: 2px solid;
     margin:auto;
     /* transform: rotate(deg); */
@@ -12,15 +12,15 @@ div{
    transition: all;
    
  }
+
  div:hover{
     width: 500px;
     height: 500px;
-    background-image: url(../ASSETS/sleeping-goku.3840x2160\ -\ frame\ at\ 0m5s.jpg);
-    transition-duration: 10s;
+    background-image: url("../ASSETS/images.jpg");
+    transition-duration: 5s;
     /* transition-timing-function: cubic-bezier(.02,1.31,1,-0.88); */
     /* transform: rotate(150deg); */
     transform:rotatey(360deg);
     transform: scale(150 deg);
-    b
  }
 
