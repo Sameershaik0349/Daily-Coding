@@ -10,7 +10,7 @@ div{
     /* transform:translate(100px); */
    /* transform: matrix(); */
    transition: all;
-   
+   flex: wrap;
  }
 
  div:hover{

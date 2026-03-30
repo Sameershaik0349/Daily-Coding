@@ -1,0 +1,57 @@
+.parent{
+    display: flex;
+    gap: 2px;
+    transition: all;
+    display: flex;
+    justify-content: center;
+
+}
+
+#card1{
+    height: 300px;
+    width: 200px;
+    background-image: url(./assets/3a988f1e04601c3ca3d642b668fde3f1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#card2{
+    height: 300px;
+    width: 200px;
+    background-image: url(./assets/spideyy\ red.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#card3{
+    height: 300px;
+    width: 200px;
+    background-image: url(./assets/smal\ nar.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#card1:hover{
+    background-image:url("./assets/rin.png");
+    background-size: contain;
+    flex: wrap;
+    transition-duration: 2s;
+    transform: rotatey(360deg);
+    transform: scale(360deg);
+}
+
+#card2:hover{
+    background-image:url("./assets/venom.jpg");
+    background-size: contain;
+    flex: wrap;
+    transition-duration: 2s;
+    transform: rotateY(360deg);
+    transform:scale(360deg);
+}
+
+#card3:hover{
+    background-image:url("./assets/big\ nar.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition-duration: 2s;
+    transform: rotateY(360deg);
+    transform:scale(360deg);
+}
