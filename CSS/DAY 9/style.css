@@ -1,0 +1,26 @@
+div{
+    width: 500px;
+    height: 500px;
+    background-color: brown;
+    border: 2px solid;
+    margin:auto;
+    /* transform: rotate(deg); */
+    /* transform: scale(1.5); */
+    /* transform: skew(50deg); */
+    /* transform:translate(100px); */
+   /* transform: matrix(); */
+   transition: all;
+   
+ }
+ div:hover{
+    width: 500px;
+    height: 500px;
+    background-image: url(../ASSETS/sleeping-goku.3840x2160\ -\ frame\ at\ 0m5s.jpg);
+    transition-duration: 10s;
+    /* transition-timing-function: cubic-bezier(.02,1.31,1,-0.88); */
+    /* transform: rotate(150deg); */
+    transform:rotatey(360deg);
+    transform: scale(150 deg);
+    b
+ }
+
