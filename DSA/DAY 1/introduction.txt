@@ -1,0 +1,22 @@
+====================DSA - data structure and algorithms=================
+
+DAta structure ---too store data efficiently
+
+
+not about codinng --finding solutions
+
+
+algorithms -- set of instrctions to solve our problem //step by step procesess
+
+problem1
+ 100 numbers -max numbers
+ 
+1)take array and store all the 100 values in array
+2) consider max value as 0
+3)iterate through the array
+4)write a condition\
+5) while iterating cjeck for is max>value inside the ou array
+6)if condition true take max value is eqal to array value
+
+
+

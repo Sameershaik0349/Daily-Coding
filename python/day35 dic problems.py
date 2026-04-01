@@ -71,10 +71,24 @@ for k,v in d2.items():
 print(d1)'''
 
 
-"""""using comparasion"""
-res={10,11,12,13,14,15,16}
-res1={}
-res1['even']=[i for i in res if i %2==0]                 
-res1['odd']=[i for i in res if i %2!=0]                                  
-print(res1)
+# """""using comparasion"""
+# res={10,11,12,13,14,15,16}
+# res1={}
+# res1['even']=[i for i in res if i %2==0]                 
+# res1['odd']=[i for i in res if i %2!=0]                                  
+# print(res1)
 
+
+
+
+l = [1, 2, 2, 3, 3, 3]
+
+freq = {}
+
+for i in l:
+    if i in freq:
+        freq[i] += 1
+    else:
+        freq[i] = 1
+
+print(freq)
