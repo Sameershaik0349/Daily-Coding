@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: #0a7a0a;
+    color: white;
+}
+
+.logo {
+    font-family: 'Atma', cursive;
+    font-size: 28px;
+    letter-spacing: 3px;
+}
+
+.menu a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Hero */
+.hero {
+    height: 80vh;
+    background: linear-gradient(to right, #1a8f1a, #7cd32f),
+                url('fruits.png') no-repeat center bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-family: 'Atma', cursive;
+    font-size: 60px;
+    text-shadow: 3px 5px 10px rgba(0,0,0,0.4);
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background: white;
+    color: green;
+    font-weight: bold;
+}
+
+/* Fresh Section */
+.fresh {
+    padding: 60px;
+}
+
+.fresh-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.fresh img {
+    width: 250px;
+}
+
+.text h2 {
+    font-family: 'Atma', cursive;
+    color: green;
+}
+
+/* Products */
+.products {
+    background: #19e219;
+    padding: 50px;
+    text-align: center;
+    border-radius: 50px 50px 0 0;
+}
+
+.products h2 {
+    font-family: 'Atma', cursive;
+    color: white;
+    margin-bottom: 30px;
+}
+
+/* Flex Cards */
+.product-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 200px;
+}
+
+.card img {
+    width: 100px;
+}
+
+.card button {
+    margin-top: 10px;
+    border: 1px solid green;
+    background: transparent;
+    padding: 5px 10px;
+    border-radius: 8px;
+}

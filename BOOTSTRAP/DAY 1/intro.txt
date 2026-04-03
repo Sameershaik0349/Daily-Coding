@@ -1,0 +1,58 @@
+=================BOOT  Fram work================
+
+*it is one of the css frame work
+*by using bootstrap we can make our webpage responsive easy way
+*in bootstrap everything should be class
+*it saves devoloper time
+*because bootstrap has predefined code snippets
+*bootstrap has some limitaions
+*it has only 8 colors
+
+
+
+website==bootstrap5---too get bootstrap code
+
+
+CDN link:-
+content delivery network
+copy the cdn link and paste into head of your html
+
+
+Box model
+content
+padding==(p-1to5) for top==pt for left==ps
+border==border  border-1to5 border-coloname
+margin==m-1to5 for mt mb ms me
+
+
+color names:-
+primary -dorger blue
+secondary -grey
+danger -red
+success -green
+waring -yellow/orange
+info -light blue
+light -white
+dark-black
+
+
+
+ fonts sizes===1to6
+
+
+ Display property:-
+
+ display-1===same like font size and but more bigger than fs1
+
+
+
+ questions:-
+
+ what is bootstrap and why we use?
+ it css framework and make devolpers easy and save time
+
+ diff betwwn container-fluid?
+
+
+ container-fluid has take full space--in any device
+ container has spaces---is only take full in small devices
