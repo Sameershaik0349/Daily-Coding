@@ -56,3 +56,59 @@ dark-black
 
  container-fluid has take full space--in any device
  container has spaces---is only take full in small devices
+
+
+
+
+ =====================day2=============
+ 
+
+
+ uisng flex
+ class=d-flex
+ flex-row
+ flex column
+ flex -column reverse
+ justify content --for center
+ jsutify-content-end ///between for gap///evenly also//aaround
+   
+
+Tables--------
+
+
+table-striped ----for grey and white shade in rows
+table-hover----for animation
+
+row span ----merge two or more roews
+col span merge two or more col
+
+
+===========bootstrao grid sysytem=============
+
+one row ===12 colo\
+
+1 card ==12 col
+2 cards -6 col 6 col
+3 cards -4 col 4col- 4col
+4 cards==3 3 3 3
+
+
+we insert 12 cards in  one row because 1 row = 12 col
+
+ ===========breakpoints==============
+
+ used to make our webpage responsive
+  
+
+  xs-exta small
+  md-medium
+  lg-large
+  xl=extra larage
+  sm-small
+  xxl-extra extra large
+
+
+
+
+  ======================carousels=================================
+  
