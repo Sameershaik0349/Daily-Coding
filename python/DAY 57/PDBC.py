@@ -182,18 +182,37 @@ sql.close()'''
 # ===================updating===================================
 
 
-import mysql.connector
+# import mysql.connector
 
-con="update student set std_name='h' where std_id = 110"
+# con="update student set std_name='h' where std_id = 110"
+# sql=mysql.connector.connect(user='root',
+#                             host='localhost',
+#                             database='pdbc',
+#                             password='Tobi@2704')
+
+# cur=sql.cursor()
+# cur.execute(con)
+
+# sql.commit()
+
+
+
+
+# sql.close()
+
+
+"too rpint records"
+
+import mysql.connector
 sql=mysql.connector.connect(user='root',
                             host='localhost',
                             database='pdbc',
                             password='Tobi@2704')
 
 cur=sql.cursor()
-cur.execute(con)
-
-sql.commit()
-
-sql.close()
+cur.execute('select * from student')
+# data =cur.fetchone() #for single
+data=cur.fetchmany(4)#----how many we want
+data=cur.fetchall()# for all
+print(data)
 

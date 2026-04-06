@@ -1,0 +1,22 @@
+===========gi & git hub================
+
+
+git =its a tool
+geographical information tracker
+it tracks the developer code
+it works on offline
+local repositary
+
+vs
+
+git hub:
+it is a platform
+it works on offline
+
+
+
+
+steps:1
+git download
+step2:
+git -v  -to check the git version
