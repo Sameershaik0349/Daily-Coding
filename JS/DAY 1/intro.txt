@@ -1,0 +1,102 @@
+==========JAVA SCRIPT========================
+
+
+it is a frontend  technolgy
+by using this we create dynamic webpages or web applications
+
+permoing functions on elemnets by clicking
+
+it is event driven
+
+it is interpreted
+
+follow both synchronous and asynchronous
+
+it is single thread synchronous ---lne by line 
+
+js supporst asynchronous programming ---no proper order
+
+
+html css js  --its order so its synchrous
+js html css --it not in ord4r so ist asynchronous
+
+it is supported both client side and server side
+
+=========features=======
+
+interpreted
+single thread synchronus
+support bth client and server
+
+
+
+why we use js?
+gaming applications--use in real world
+mobile applications
+
+to make our webpage dynamic
+
+history and versions:
+js is invented by briendan withich in 1995
+
+version:-
+es1
+es2
+e6----present version  from 2015 --plain js//imp //so we learn this
+
+es13---present 
+
+what are features/concepts  of es5 
+----------------------------------------
+
+
+=================es-==ECMA SCRIPT======
+ECMA--european computers manufactures assoication
+
+hwere we run javascript?
+browser
+node
+
+how js will works?
+js engine:-//translator//it is a convertor from script to machine code browser which can brwoser can understand
+script -jsengine--machine code .>>browser
+
+Chrome ==v8 engine
+
+
+output execution methods:
+they are 3 ways
+
+alert('')-----like print //popup box or notification //imp
+console.log('') - browser - console --debugging purpose //imp
+document.write()- main page
+
+
+script
+
+
+
+
+==========implementation ways====================
+
+internal js
+inline js
+external js
+
+
+var let const
+
+
+
+datatypes:-
+operators
+conditional statments
+loops
+control flow statmentsfunction 14 types
+
+
+
+
+
+
+
