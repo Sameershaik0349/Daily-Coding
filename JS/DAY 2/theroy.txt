@@ -1,0 +1,88 @@
+=====implemntationn===========
+
+
+inline:-
+
+
+<button onclick="alert('added')">ADD</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=============varibles====================
+
+store the data  like a container
+
+
+3 keywords:-
+
+var a =10;
+
+in js varible can declare by using 3 keywords
+varlet
+const
+
+declaration
+assigning
+redeclaration
+reassigning
+
+
+var a; // declaration
+a = 10; //assigning
+
+var a = 10; / initialization
+
+var :
+declaration & assigning support for single line &mult lines
+it supports REDECLARTION
+it supports reassigning
+var is a functional scope
+var is used before 2015
+let:-
+declaration & assigning support for single line &mult lines
+let does not support REDELACARTION
+it supports reassigning
+it is block scope
+
+const:
+declaration & assigning should be single line
+let does not support REDELACARTION
+it does not supports reassigning
+
+
+
+
+=============redeclaration===============
+
+declaring varible more tha one in the same scope
+
+
+
+
+
+
+
+
+
+
+varible naming rules:-
+spaces not allowed
+reserver keywords are not used
+start with  
