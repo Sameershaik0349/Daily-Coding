@@ -86,3 +86,23 @@ varible naming rules:-
 spaces not allowed
 reserver keywords are not used
 start with  
+
+
+
+
+=======================data types============
+
+string
+number
+boolean
+undifined---deeclared but not given values
+null ---
+bight
+symbol
+
+
+non---
+
+objects
+arrays
+functions--14 types

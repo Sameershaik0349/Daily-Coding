@@ -5,8 +5,11 @@
 // const a =50
 // console.log(a)
 
+// function add(){
+//             alert("added")
+//         }
 
 
-let a=10;
-let a =20;
-console.log(a)
+// let a=10;
+// let a =20;
+// console.log(a)
