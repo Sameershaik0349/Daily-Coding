@@ -43,7 +43,7 @@ exception---
      '''
 
 
-try:
+'''try:
     name="python"
     print(pin)
 # except Exception as p:
@@ -53,7 +53,7 @@ except NameError:
     print('name error') #---if we know the error
 
 except ZeroDivisionError():
-    print("zerodiverror") 
+    print("zerodiverror") '''
 
 
 # except AttributeError():#uses in objects and classes
@@ -67,3 +67,54 @@ print("default error")
 its must in last
 '''
 
+
+
+
+"Else"
+
+'''try:
+    print(10/2)
+except Exception as k:
+    print(k)
+else:
+    print("expception else")
+finally:
+    print("finally")
+'''
+
+try:
+    print("outer try")
+    try:
+        print("inner try")
+        print(10/0)
+    except ValueError:
+        print("value error")
+    except ZeroDivisionError:
+        print(":zerodiv error")
+    except IndexError:
+        print("index error")
+    except:
+        print("---default -----")
+    else:
+        print("inner else")
+    finally:
+        print("inner finaaly block")
+except FileNotFoundError:
+    print("outer filenotfounderror")
+except ValueError:
+        print("outer value error")
+except TypeError:
+    print("type error")
+except AttributeError:
+    print("outer default")
+
+except:
+    print("outer defaulty")
+
+else:
+    print("outer else")
+finally:
+    print("outer final")
+
+
+    
