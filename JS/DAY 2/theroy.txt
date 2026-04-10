@@ -91,7 +91,7 @@ start with
 
 
 =======================data types============
-
+primitive: single values stores
 string
 number
 boolean
