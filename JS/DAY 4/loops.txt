@@ -1,0 +1,37 @@
+================loops===================
+
+loops:
+loops are used to exceute theblock of statments rearetdly
+based on condtionsss
+types of loops:
+for loop
+for -each loop--es6
+while
+do-while loops
+for in loop
+forof loop 
+
+
+
+forloop
+
+when we know the no of iteration
+syntax:
+for(initlization;condition;inc/dec){
+    /bos
+}
+ 
+
+
+ for each:
+ its is one of the array iteration method
+ it has three parameters
+ value,index,array
+ does not have condition
+
+
+ syntax:
+ variblename.foreach((value,index,array)=>{
+
+        console.log(value,index,array)
+ })

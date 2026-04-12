@@ -1,0 +1,100 @@
+============conditional staements=======================
+
+block of staments are executed based on the conditional
+
+
+types of conditional statments:-
+
+if
+if-else
+if-elseif-else
+
+switch 
+====for mul condtionsss====
+------------------------------
+ternary operator
+
+
+
+
+
+syntax------
+
+if
+block of statements only when the cond is true
+there is no ouput when the cond is false
+syntax:
+if(condition){
+    statements 
+}
+
+
+if-else:
+
+cond is true -if block statment executed
+cond is false -else block will executed
+
+
+syntax
+
+if(condition){
+    statements 
+}
+else{
+    statments
+}
+
+
+
+else-if
+use when we have mul condtionsss
+
+if(condition){
+    statements 
+}
+
+else if {
+    sas
+}
+else if {
+    sas
+}
+else if {
+    sas
+}
+else if {
+    sas
+}
+
+else{
+    statments
+}
+
+switch--
+it is es6 concept
+replacemnt for mul conditions
+
+else is default in this
+
+syntax:
+switch(varname){
+    casepatten:
+        //block
+        break;
+    
+    casepatten:
+        //block
+        break;
+    
+    default:
+        vvj
+}
+
+
+
+prompt----for user input 
+
+ternary:-
+
+
+condition? true:false
