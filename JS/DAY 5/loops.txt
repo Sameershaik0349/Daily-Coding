@@ -1,0 +1,29 @@
+====whileloop======
+
+when we dont know the number of iterations
+until unles the condition is false
+if condition is false there is no output
+
+syntax:
+initialization;
+while (condition){
+    bos
+}
+
+
+============do while==========
+
+
+in do while block of statements re excecuted atleast once even the condition is false
+if false it gives initlie value
+syntax:
+initialization;
+do{
+    bos
+    inc/dec
+}while(condition)
+
+============for in=======
+for in is use to iteraate the object properties either keys or values
+its work on arrays and objects but we more use in objects//dict
+
