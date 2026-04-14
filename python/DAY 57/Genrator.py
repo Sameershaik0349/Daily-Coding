@@ -3,7 +3,7 @@
 # USE FOR MEMORY EFFICIENCY
 # WHEN WE CALL THEN ONLT STORE
 # USE WHEN WE USING LARGE DATA SET
-# THEY ARE  2WAYS TO REATE GENRATOR
+# THEY ARE  2WAYS TO CREATE GENRATOR
 # IN TUPLE COMPERHENSION'''
 #  whn we call then only store
 #genrator does not support index values
@@ -37,7 +37,7 @@ print(next(obj))''' #this is correct method to print genrator method
 "between prime numbers"
 
 
-def prime(a,b):
+'''def prime(a,b):
     for x in range(a,b):
         for j in range(2,x):
             if x%j==0:
@@ -50,7 +50,37 @@ obj=prime(20,30)
 # print(next(prime(20,30)))
 for z in obj:
     print(z)
+'''
 
+
+
+
+# def num():
+#     yield 1
+#     yield 2
+#     yield 3
+
+# obj=num()
+# print(next(obj))
+# print(next(obj))
+# print(next(obj))
+# ------------------------------------------------------
+
+# def table(a):
+#     for x in range(1,11):
+#         yield f"{a} * {x} = {a*x}"
+
+# obj=table(2)
+# # print(next(obj))
+# # print(next(obj))
+
+# for x in obj:
+#     print(x)
+
+
+
+import zipfile
 
 
     
+

@@ -1,3 +1,4 @@
-emp_id,emp_name,emp_sal
-101,sameer,1100000000.0
-101,sameer,11111111
+empid,emp_name,emp_salary
+101,sam,200000
+102,sai,2000
+103,kumar,3000
