@@ -1,0 +1,45 @@
+======================FUNCTIONs======================================
+
+it is a block of code is design to peform some task
+FUNCTIONs are not executed itself
+they execute onlt when we call/invoke the FUNCTIONs
+function are used for code reusablity purpose
+
+types of function --14 fun
+
+functions declaration
+function expression
+function with parameter
+function without paremeter
+function with return
+function without return
+
+method objects
+arrow function
+higher order function
+call back function
+reccursive function
+ananymous function
+life function
+timing function
+
+
+
+----------------------------
+
+functions declaration
+
+function-keyword
+functionname
+()
+{
+    bos
+}
+function()-call
+
+
+=======================================
+function expression
+a function is assign to a varible function expression
+
+
