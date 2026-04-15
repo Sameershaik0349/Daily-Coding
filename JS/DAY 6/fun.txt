@@ -20,7 +20,7 @@ higher order function
 call back function
 reccursive function
 ananymous function
-life function
+Iife function
 timing function
 
 
@@ -43,3 +43,70 @@ function expression
 a function is assign to a varible function expression
 
 
+
+=================
+
+function with return
+
+
+what is return 
+
+return is keyword which stops the function exceution 
+after return what ever statements we have written will not executed
+
+
+
+
+-----------------------------------------------------
+method objects
+
+{
+    key:"value"
+
+}
+
+a function is passed inside an object as value is known has method objects
+
+
+this=it is used to cuurent object properties
+
+
+=====================================================
+
+arrow function
+
+it is es6 conccept
+
+with single parameter
+multiple parameter
+
+when we have single paramter paranthesis is optional
+when we have multiple paramter paranthisis is mandatory
+
+
+====================================================================
+
+
+higher order function: **
+a function which accepts another function as a argumentss 
+
+call back fucntion:
+a function which passes as an arguements in to another function
+
+=============================================
+reccursive function
+
+a function calling it self is called recursive function
+
+base casse:
+it is a stoping casse to stop the fucntion
+wothout base case it show call stack size is exceeded
+
+
+
+========================
+
+IIfe --immediately invoked function expression
+
+a function which is wrapped inside the paranthseiss
+it is called instantly 
