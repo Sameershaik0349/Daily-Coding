@@ -22,7 +22,7 @@ check_num(10)'''
 
 
 # pprime number by using decarator
-'''def prime(check_num):
+def prime(check_num):
     def inner(a,b):
         for x in range(a,b):
             for j in range(2,x):
@@ -32,14 +32,13 @@ check_num(10)'''
                 print(x)
     return inner
 
-
 @prime
 def check_num(a,b):
     for x in range(a,b):
         print(x)
 
 
-check_num(10,20)'''
+check_num(10,20)
 
 # authentication
 '''def secure(user):

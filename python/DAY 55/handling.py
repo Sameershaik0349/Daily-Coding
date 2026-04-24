@@ -81,20 +81,20 @@ print(count)
 
 "words"
 
-'''with open("filehand2.txt","r+") as s:
-    data=s.read()
-    data1=data.split()
-    print(len(data1))'''
+# with open("filehand2.txt","r+") as s:
+#     data=s.read()
+#     data1=data.split()
+#     print(len(data1))
 
 
 "chars"
-'''
-with open("filehand2.txt","r+") as j:
-    s=j.read()
-    count=0
-    for i in s:
-        count+=1
-print(count)'''
+
+# with open("filehand2.txt","r+") as j:
+#     s=j.read()
+#     count=0
+#     for i in s:
+#         count+=1
+# print(count)
 
 
 

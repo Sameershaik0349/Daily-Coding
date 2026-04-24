@@ -59,19 +59,19 @@
 # t_13=t4.strftime("%H:%M:%p")
 # print(t_13)
 
-'tasssssssssssssssssssssk'
-# from datetime import datetime,timedelta
-# import pyttsx3
-# engine=pyttsx3.init()
-# alarm=datetime.now()
-# alarm_t=alarm+timedelta(seconds=5)
-# # print(alarm_t)
-# while True:
-#     now=datetime.now()
-#     if now>=alarm_t:
-#         engine.say("hey chuuthiya wake up")
-#         engine.runAndWait()
-#         break
+'task'
+from datetime import datetime,timedelta
+import pyttsx3
+engine=pyttsx3.init()
+alarm=datetime.now()
+alarm_t=alarm+timedelta(seconds=5)
+# print(alarm_t)
+while True:
+    now=datetime.now()
+    if now>=alarm_t:
+        engine.say("salma salma wake up")
+        engine.runAndWait()
+        break
 
 
 
@@ -96,16 +96,16 @@
 
 
 
-def patterns(m):
-    for x in range(1,m+1):
-        for y in range(1,m+1):
-            if x==1 or y==1 or x==m or y==m:
-                print("*",end=" ")
-            else:
-                print(" ",end=" ")
-        print()
+# def patterns(m):
+#     for x in range(1,m+1):
+#         for y in range(1,m+1):
+#             if x==1 or y==1 or x==m or y==m:
+#                 print("*",end=" ")
+#             else:
+#                 print(" ",end=" ")
+#         print()
 
-patterns(4)
+# patterns(4)
 
 
 

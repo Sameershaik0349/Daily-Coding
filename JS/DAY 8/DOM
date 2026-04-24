@@ -1,0 +1,47 @@
+========Dom Manipulations//dom methods==============
+methods--
+create elements -it is used to create html element
+setattributes --for attribute
+getattribute --it return atribute values
+appendchild--for single
+append    for multiple or single 
+prepend --for add in first
+and also for multiple values
+insertbefore --for like update can add in specfic place
+replacechild --for replace the (new,old)
+removechild--for delete
+
+
+
+interview qq
+appendchild  diffrnece append
+innerHTML difff innerTEXT
+
+
+textcontent---for add text
+
+
+in js fro adding content dynamically we follow 3 methods
+innerHTML
+document.body.innerHTML="js"
+work <h1>taggs
+
+innerTEXT
+document.body.innerTEXT="js"
+does not support taggs
+
+textcontent
+document.body.textcontent="js"
+does not support taggs
+
+
+class name=vs class list()
+
+class list
+add   for mutlipkle class adding
+remove
+contains ---t/f
+toggle 
+
+
+

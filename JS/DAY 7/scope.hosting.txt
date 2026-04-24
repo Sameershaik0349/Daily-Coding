@@ -1,0 +1,15 @@
+===============================scopes==============
+
+scopes:
+
+where a varible is decleared and where it can access
+
+global scopes
+functional scopes
+block scopes
+lexical scopes
+
+
+hosting
+
+here we can move the declaaration part at top of the scopesits supports 100% for fun declaaration

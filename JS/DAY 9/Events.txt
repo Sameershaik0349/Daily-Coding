@@ -1,0 +1,54 @@
+================events=====================================
+
+
+perform some actions when an event is triggred
+
+types oof events:-
+pointer
+.click
+
+mouse events
+.ondblclick
+.mouseover
+.mouseup
+.mouse down
+.mouseout
+
+keyboard events
+keypress
+keyup
+keydown
+
+window events
+load
+resize
+scroll
+
+
+focus events
+    focus
+    blur
+
+
+
+
+events has 2 ways
+normla fun
+addevenlistener function
+
+
+
+
+addevenlistener function
+
+two parameters:-
+1.event name
+2.function -arrow function
+3.event option -control event behaviour {times:true}
+
+
+normal fun:=
+it will over ride prvious one
+
+
+addevenlistener:-

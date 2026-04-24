@@ -55,32 +55,44 @@ div{
     animation-direction: alternate-reverse;
 }
 
+.box {
+    width: 50px;
+    height: 50px;
+    background: red;
+    position: absolute;
+
+    animation: moveAround 4s infinite;
+}
+
 @keyframes circle {
-    0%{
-        top:0px;
-        left: 0px;
-    }
-    25%{
-        top:630px;
-        left:0px;
-        box-shadow: 10px 10px 10px rgb(195, 10, 10);
 
-    }
-    50%{
-        left:630px;
-        top: 0px;
-        box-shadow: 20px 20 px 20 px rgb(6, 149, 231);
+    /* Top-left (start) */
+    0% {
+        top: 0;
+        left: 0;
     }
 
-    75%{
-        left: 630px;
-        top:630px;
-        box-shadow: 30px 30 px 30px rgb(115, 5, 199);
+    /* Bottom-left */
+    25% {
+        top: calc(100vh - 50px);
+        left: 0;
     }
-    100%{
-        top: 315px;
-        bottom:315px;
-        left:315px;
-        box-shadow: 50px 50 px 50 px white;
+
+    /* Bottom-right */
+    50% {
+        top: calc(100vh - 50px);
+        left: calc(100vw - 50px);
+    }
+
+    /* Top-right */
+    75% {
+        top: 0;
+        left: calc(100vw - 50px);
+    }
+
+    /* Back to start */
+    100% {
+        top: 0;
+        left: 0;
     }
 }
