@@ -132,7 +132,7 @@
 //         console.log(`my name is ${this.name}`) 
 //     }
 // }
-
+// this keyword for in same object in sam object
 // console.log(person)
 // console.log(person.data)
 // console.log(person.data())
@@ -165,14 +165,13 @@
 
 // ==============================================
 
-//higer order
+// higer order
 // function data (hello) {
 //     console.log("hi")
 //     hello()
 //     console.log("good morining...")
 
 // }
-
 // //call back
 // function data_two(){
 //     console.log("studnets")
@@ -183,22 +182,23 @@
 
 // recursive
 
-function fac(n){
-    if (n==0){
+// function fac(n){
+//     if (n==0){
 
-        return 1
-    }
-    else{
-        return n*fac(n-1)
-    }
+//         return 1
+//     }
+//     else{
+//         return n*fac(n-1)
+//     }
 
-}
+// }
 
-console.log(fac(5))
+// console.log(fac(5))
  
 
-//iife
+// //iife  --immdetly invoked function expression 
 
-(function(){
-    console.log("this is iife")
-})()
+// (function(){
+//     console.log("this is iife")
+// })()
+
