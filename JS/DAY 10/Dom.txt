@@ -1,0 +1,60 @@
+=======dom==========
+document object model
+
+
+we manupulate html elemnts  by using this
+create,add,modify,delete
+
+
+doucment - html file
+here our browser will allows java script to intract with html
+dom tree:-
+our html file elements will converted in to tree strucuture
+hierarchy tree strucuture
+
+
+node
+
+html
+
+body
+|
+h1,p
+
+===========selectors================
+
+we selecting for manupulate
+getElementsByTagname
+getElementsByClassname
+getElementById
+
+up to id it store in arrays
+
+querySelector ---only give first elemnts matches in tags
+it doesnot store in array 
+QuerySelectorAll --it give all tags
+it has node list
+
+
+
+
+html collection vs node list======
+html cool ==collection of html elements without incliuiding text
+node list == collection of html elements with inclinding text
+
+text ==spaces
+
+nodelist -properties
+parentNode
+ChildNodes
+Firstchild
+lastchild
+nextsibiling
+
+
+html collection properties :=
+parent elements
+child elements
+first element child
+lastelementchild
+nextelementsibiling
