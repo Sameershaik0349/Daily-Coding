@@ -5,11 +5,26 @@ scopes:
 where a varible is decleared and where it can access
 
 global scopes
+var ,let ,const support global
 functional scopes
+when we use var in function then we cant access outside of function  
 block scopes
+var only support local
 lexical scopes
 
 
-hosting
+hoisting
 
-here we can move the declaaration part at top of the scopesits supports 100% for fun declaaration
+here we can move the declaaration part at top of the scopes 
+its supports 100% for function  declaaration
+var --supported --declaration part move top give undefined 
+let 
+in this it movie but varible not declared in behing 
+went to tDZ zone 
+temporal dead zone --the time between complilation and execution phase
+const   --no support// same has let
+
+
+
+but in function it give ouput
+

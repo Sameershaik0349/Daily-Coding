@@ -5,10 +5,6 @@
 // -----------------------------------------------
 //function declaration
 //function without papameter
-
-// const { data } = require("framer-motion/client")
-
-
 // function data(){
 //     console.log("Functions")
 // }
