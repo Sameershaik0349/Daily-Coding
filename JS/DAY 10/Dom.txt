@@ -58,3 +58,43 @@ child elements
 first element child
 lastelementchild
 nextelementsibiling
+
+
+
+===============manpulation===================
+
+it is also called has dom maupulation
+dom methods:-
+
+create element ---it is used to create an html element
+setAttribute
+getattribute
+appendchild --interview //for single
+append   --interview  //for multiple
+prepend --add in first & can add multiple 
+insertbefore==in specific place
+replacechild
+removechild
+
+
+
+=====================================
+in js to add content dynamically they has 3 methods
+innerHtml--interview --understnad what is in quotes
+innerText--interview ---give which is innquotes
+textcontent -- it is also same has inner text   //hiiden data will appearin console
+
+
+
+===================csss
+
+classname vs classlist
+
+
+
+classlist
+add  -mult  add class
+remove  --to remove
+contains --fining which class has in console
+toggle
+
