@@ -45,3 +45,5 @@ function mouseout(){
 function mouseup(){
     console.log("this is mouseup")
 }
+
+

@@ -58,4 +58,4 @@ it exceute all functions
 event objects:-
 it will give complete info about an event
 
-give event argument to prove that onclick is pointer event
+give event argument to prove that onclick is pointer event  
