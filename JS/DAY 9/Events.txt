@@ -5,7 +5,7 @@ perform some actions when an event is triggred
 
 types oof events:-
 pointer
-.click
+.onc click //addevenlistener function ---(click)
 
 mouse events
 .ondblclick
@@ -48,7 +48,14 @@ two parameters:-
 
 
 normal fun:=
-it will over ride prvious one
+it will over ride prvious one and exceute last one when we calling multiple function in normala function 
 
 
 addevenlistener:-
+it exceute all functions
+
+
+event objects:-
+it will give complete info about an event
+
+give event argument to prove that onclick is pointer event
