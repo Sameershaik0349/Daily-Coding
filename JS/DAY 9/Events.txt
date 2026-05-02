@@ -59,3 +59,38 @@ event objects:-
 it will give complete info about an event
 
 give event argument to prove that onclick is pointer event  
+
+
+
+
+
+===================Event propagations==========================================
+  prevent default()
+  stoping element behaviour
+
+
+  event propagations:-
+  the path thatthe event flows
+  example:-
+  top to buttom
+  bottom to top
+
+  they are 3 phases:-
+  target  ----------inter (target vs current target)
+  the element which attaced with addevenlsitner
+  current target:-
+  based on target element it will triggeres
+ 
+  bubbling:-
+  it is by default true
+  in bubbling phase event flows from buttom to top
+
+
+  capturing
+  it is by default false
+  it flows from top to buttom
+
+
+  stoppropgation():-
+  it is used to contol the bubbling phase
+  

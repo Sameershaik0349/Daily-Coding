@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent{
+            border: 2px solid;
+            width: 180px;
+            padding: 9px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        #p{
+            width: 200px;
+            height: 200px;
+            place-items: center;
+            display:grid;
+            background-color:green;
+        }
+        #ch{
+            width: 150px;
+            height: 150px;
+            display: grid;
+            background-color:orange;
+            place-items: center;
+        }
+        #sub{
+            width: 100px;
+            height: 100px;
+            background-color:wheat
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+        <h1>event prpgation</h1>
+        <input type="checkbox" id ="check">
+        <a href="https:www.google.com" id="link">google</a>
+    </center>
+
+    <div id ="parent">
+        <h1>mobile</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, perspiciatis. Quaerat eius eveniet amet excepturi odio quos quibusdam doloribus magni, consequuntur quidem alias dolor voluptatum mollitia consectetur. Hic, ducimus commodi?</p>
+        <button>fuck</button>
+    </div>
+
+
+    <div id="p">
+        <div id="ch">
+            <div id="sub">
+
+            </div>
+
+        </div>
+    </div>
+        <script src="./app1.js"></script>
+</body>
+</html>
