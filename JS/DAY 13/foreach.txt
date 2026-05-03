@@ -1,0 +1,19 @@
+================for each==========
+for ecah does not have nay condition
+it has only value ,index,array
+
+================for loop=======
+its has a condition
+
+
+===============map===============
+when we using this we return like console
+
+
+
+when we create crads it give coma becuse it does element has array
+\
+
+
+
+**********use dummy json websitesssss for arraysss******

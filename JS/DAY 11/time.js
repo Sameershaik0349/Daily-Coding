@@ -33,4 +33,40 @@ addclock()
 
 
 
+// =======set time out==========
 
+
+//clear timeout============
+
+// let time =setTimeout(() => {
+//     console.log("ffff")    
+// }, );
+
+// clearTimeout(time)//it stops excuting for settimout after there tie
+//ex:-if settimeout is alaram for 5 sec after 5 sec its exceute but cleartimeout stops that
+
+
+
+
+
+
+
+//clearinterval
+
+// let i =1;
+// let time=setInterval(() => {
+//   console.log(i) 
+//   i++; 
+// },1000);
+
+
+
+
+// let i =1;
+// let time=setInterval(() => {
+//   console.log(i) 
+//   i++; 
+//   if(i==6){
+//     clearInterval(time)
+//   }
+// },1000);

@@ -1,0 +1,68 @@
+================================array iteartion=====================
+
+
+its only works on arraysss
+for each 
+map
+filter --it works based on condition
+-----------------------------------------------------
+reduce **----reduce the bunch values into single value
+--used for pricce mathods
+--here we use accumulator ==acc ==it means initial value
+initil value is zero 
+ex_
+in cart  it added amount by intial and next previous value like 300+300=600
+
+
+let data=a.reduce((acc,val)=>{
+    return acc+val
+},0     -----initila value)
+=---------------------------------------------------------------
+some 
+it is has or operator if any of this true it give true
+let a =[1,2,3,4,5]
+let data =a.some((item)=>{
+    return item>2
+
+})
+--------------------------------------
+every
+it is like logial AND so it has true all in array
+let a =[1,2,3,4,5]
+let data =a.every((item)=>{
+    return item>2
+
+})
+=======================================================
+find
+return first match element based on condtion
+let a =[1,2,3,4,5]
+let data =a.find((item)=>{
+    return item>2
+
+})
+
+------------------------------------------------
+find index
+return first match element based on condtion
+let a =[1,2,3,4,5]
+let data =a.findindex((item)=>{
+    return item>2
+})
+---------------------------------
+findlast
+return last match element based on condtion
+let a =[1,2,3,4,5]
+let data =a.findlast((item)=>{
+    return item>2
+})
+--------------------------------------
+find lastindex
+return last match element based on condtion
+let a =[1,2,3,4,5]
+let data =a.findlastinddex((item)=>{
+    return item>2
+})
+------------------------------------------------
+sort
+

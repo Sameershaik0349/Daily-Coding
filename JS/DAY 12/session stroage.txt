@@ -1,0 +1,29 @@
+================stroages in js==========================
+
+they are two types in stroages
+these are called web stroages
+1.section stroages-----when we terminate session it will end
+have to send in json.stringify
+will take the 5mb
+clearing items:-
+
+2.local stroages -----until we terminate
+it will take only 10 mb
+Clearing items:-
+
+
+localStorage.removeItem('name')---for single
+
+localStorage.clear('k') ---for multiple
+console.log(localStorage.length)//--for length
+
+
+toLocaleString
+
+rest and spread
+detracting
+es6 concepts
+call backs
+callback hell
+closures
+scopes
