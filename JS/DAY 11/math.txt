@@ -1,0 +1,69 @@
+==============math and date time ===================
+
+methods
+toFixed() for how many decimal we want
+
+
+
+DAte objects:-
+
+new -with the help of new keyword we can crete a objects   
+
+        FRPM CONSTRUCTOR FUNCTION
+
+get methods:-
+
+getfullyear
+getmonth
+getdate
+getday
+gethours
+getminutes
+getseconds
+gettime
+getmilliseconds
+
+
+set methods:-
+revres the get methods to set
+
+
+formating methods:-
+toDateString() ---->only date
+toTimeString() --->only time
+toLocaleDatestring()
+toLocaleTimeString()
+toLocaleString()
+
+
+
+
+==============================================================================
+timing FUNCTION
+
+timing function are used to eccute the function depends on time
+bulit in function also called has timing function
+
+methods
+setIneterval
+settimeout
+clearInterval()
+cleartimeout()
+
+
+
+set interval(function,time)
+
+in setInterval the function executes countinously
+based on time
+
+time-sholud be in miliseconds  1sec--1000mil
+
+
+setTimeout(function,delaytime)
+
+in setTimeout int his function will execute only once after some delay
+
+
+clearInterval(varname)------it is used to remove the set interval
+cleartimeout(varname)---it is used to remove the settimeout
