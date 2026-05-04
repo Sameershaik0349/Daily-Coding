@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(208, 166, 166);
+            background-image:url('https://media.licdn.com/dms/image/v2/D4D12AQFIfehamvKU9g/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1680263836040?e=2147483647&v=beta&t=P0lIRw1OH3ZRsJ0ShYXp4XlWsSiB_G7s4dpocTUPlIY');
+            background-size: contain;
+        }
+        #parent{
+            display: flex;
+            flex-wrap: wrap; /*to avoid horizontal scroll in dowm */
+            justify-content: center;
+            color: white;
+        }
+        #card{
+            background-color: rgb(2, 1, 1);
+            width: 180px;
+            padding: 2px;
+            border: 2px solid;
+            border-color:rgb(226, 227, 238);
+            margin: 2px;
+            text-align: center;
+            border-radius: 10px;
+            
+        }
+        #in{
+            width: 600px;
+            padding: 20px;
+            border: 5px solid;
+            border-color: rebeccapurple;
+            border-radius: 10px;
+            margin-bottom: 10px;
+
+        }
+        #card img {
+        width: 100%;          /* take full card width */
+        height: 210px;        /* fixed height */
+        object-fit: contain;    /* crop nicely */
+        border-radius:45px
+}
+        
+    </style>
+</head>
+<body>
+    <center>
+        <h1 style="color: white;">produts</h1>
+        <h3  style="color: white;">Cart<sup id="cartto">0</sup></h3>
+        <h2>Total bill:<span id="bil">0</span></h2>
+        <input type="text" id="in" oninput="fil()">
+    </center>
+    <div id="parent">
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

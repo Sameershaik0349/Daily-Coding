@@ -42,20 +42,6 @@
 // console.log(data)
 
 
-//every
-// let a =[1,2,3,4,5]
-// let data =a.every((item)=>{
-//     return item>2
-
-// })
-
-
-//find
-
-// let a =[1,2,3,4,5]
-// let data =a.find((item)=>{
-//     return item>2
-
 // })
 
 // console.log(data)
