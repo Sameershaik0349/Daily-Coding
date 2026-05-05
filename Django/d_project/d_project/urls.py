@@ -17,9 +17,14 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from d_app.views import first,even
+from d_app.views import even
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("",first),
-    path("even/",even)
+    # path("",first),
+    # path("even/",even)
+    # path("",employee)
+    # path("",employee)
+    # path("<int:val1>/<int:val2>/",cal)
+    # path("<str:emp_name>/<int:emp_id>/<int:emp_sal>/",emp)
+    path("<int:val>/",even)
 ]
