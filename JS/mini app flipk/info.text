@@ -1,0 +1,26 @@
+regex
+
+it is a pattern which is used to match the values
+^-strating symbol
+$-ending symbol
+/^   $/
+
+
+username -/^[A-Z]{1}[a-z]{8}$/
+mobile-/^[6-9][0-9]{9}$/
+{9,}-----if comma ocuur minimum 9 more than 9
+
+aadhar -/^[0-9]{4} [0-9]{4} [0-9]{4}$/
+
+pan-/^[A-Z]{5}[0-9]{4}[A-Z]$/
+
+password-/^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#%&*()]){8}$/
+email -/^[A-za-z0-9]{5,}[+@]$/
+
+?=   --positive look head
+check the existence
+
+.*  --one or more characters
+
+
+test ----method in testing for form validation

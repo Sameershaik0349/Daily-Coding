@@ -1,0 +1,44 @@
+=================forms=======================
+they 3 types
+physical--through paper
+application-online forms login signup and signin
+url -through links
+
+
+
+action:-what will happen next after submit data
+method-get post
+
+label
+input
+ forms tags:-
+form
+
+label -
+input
+
+attributes
+
+form - action,method
+label - for  ---  use for conections 
+input --eleven attributes
+*RULES ---Singel tag and inline element
+
+id
+,name
+,value
+,type
+,placeholder
+,disbaled
+,minlength
+,maxlength
+,autofoucs
+,size
+,required
+
+
+verfication:-comapring
+validation:-checking the values
+
+
+
