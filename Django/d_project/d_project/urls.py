@@ -17,7 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from d_app.views import even
+from d_app.views import register,login
 urlpatterns = [
     path('admin/', admin.site.urls),
     # path("",first),
@@ -26,5 +26,8 @@ urlpatterns = [
     # path("",employee)
     # path("<int:val1>/<int:val2>/",cal)
     # path("<str:emp_name>/<int:emp_id>/<int:emp_sal>/",emp)
-    path("<int:val>/",even)
+    # path("<int:val>/",even)
+    path("register/<str:username>/<str:password>/",register),
+    path("login/<str:username>/<str:password>/",login)
+
 ]

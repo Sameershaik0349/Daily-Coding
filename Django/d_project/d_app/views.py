@@ -69,8 +69,44 @@ def employee(reqests):
 
 
 
-def even(reqest,val):
-    if val%2==0:
-        return HttpResponse(f"""<h1 style='color:green'>{val}</h1>its even""")
+# def even(reqest,val):
+#     if val%2==0:
+#         return HttpResponse(f"""<h1 style='color:green'>{val}</h1>its even""")
+#     else:
+#         return HttpResponse(f"""<h1 style='color:red'>{val}</h1>its odd""")
+
+
+# functioon register
+#function login
+# in register give a pattern
+# 
+
+import re
+users={}
+def register(reqest,username,password):
+    userpattern = r'[A-Za-z][a-z]{8}'
+    passwordpattern = r'[A-Za-z][a-z]{8}'
+    check=re.fullmatch(userpattern,username)
+    check1=re.fullmatch(passwordpattern,password)
+    if check and check1:
+        if username in users:
+            return HttpResponse('<h2 style="color:black">User alredy exist</h2>')
+        users[username]=password
+        return HttpResponse(f'<h1 style="colr:green">{username}  register succesfully<h1>')
     else:
-        return HttpResponse(f"""<h1 style='color:red'>{val}</h1>its odd""")
+        return HttpResponse('<h1 style="color:red">invalid</h1>')
+    
+
+
+def login(reqest,username,password):
+    if username in users and users[username]==password:
+        return HttpResponse(f'<h1>hi{username} your login sucessfully</h1>')
+    else:
+        return HttpResponse('<h1 style="color:red">your not register yet</h1>')
+
+
+
+        
+
+
+
