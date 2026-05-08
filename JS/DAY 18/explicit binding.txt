@@ -1,0 +1,44 @@
+============================THIS KEYWORD=============================
+
+THIS--keyword value will be chnaged depend on how and where the function is called
+in client side THIS keyword refers as window object
+//console.log(this)---window object
+
+
+types :
+Method objects:-
+this ---keyword is used to acces the current object propertyy
+
+arrow function:-
+in arrow function THIS keyword WIll not Workk
+
+events:-
+in events THIS keyword triggers particular element
+
+constructur:-
+it is special method function which is used to creaye the dynamic object by using 'NEW' keywords
+function will start with capital ltteer
+in constructor this keyword worked as varible to assign  values to it 
+
+
+
+
+
+==========================Explicit binding================================
+
+with singele function we can acess n  no of objects properties easily
+
+methods:-
+call:-
+it will invoke the function immediately
+in call  method pass the arguments with comma separted within()
+--------------------------------------------------------------------------
+apply:-
+it is same has call method 
+it   will also invoke the function immediately
+in apply method arguments are passes in array format[]
+--------------------------------------------------------------------------
+bind:-
+it will not invoke the function immediately
+it returns a new function
+it returns the data only when the new function is called
