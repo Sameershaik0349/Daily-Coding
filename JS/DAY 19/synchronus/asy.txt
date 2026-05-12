@@ -1,0 +1,77 @@
+synchronus to asynchronuss
+
+typesare 3:-
+
+promieses
+async and await
+callback
+
+-imp-------
+promises:-
+it is a way to handle the asynchronus operations
+promise is like a constructor function
+with the help of "NEW" keyword we can create a promise
+here we use two arguments resolve,reject
+it has 3 states:-
+pending ---just promiseed
+
+let p=new Promise((resolve,reject)=>{
+
+})
+
+console.log(p) 
+---------------------------------------------
+fullfilled --after succes
+let p=new Promise((resolve,reject)=>{
+    console.log("task1")
+    setTimeout(()=>{
+        console.log("task2")
+        resolve()
+    },3000)
+})
+.then(()=>{
+    console.log("task3")
+})
+
+console.log(p)
+-------------------------------------------
+rejected ---after failed
+let p=new Promise((resolve,reject)=>{
+    console.log("task1")
+    setTimeout(()=>{
+        console.log("task2")
+        reject()
+    },3000)
+})
+.then(()=>{
+    console.log("task3")
+})
+
+console.log(p)
+
+
+
+"syntax"------
+let p=new Promise((resolve,reject)=>{
+
+})
+
+console.log(p)          //pending
+
+
+
+
+
+-============================API=========================================
+
+Appilication programming interface
+
+get teh data from one Appilication to our Appilication through request
+we send a reqest to server through url for the data
+
+
+fetch:-
+fetch is a method it retursn a promise
+it returns a the data when promise get resolved
+
+

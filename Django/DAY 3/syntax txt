@@ -1,0 +1,7 @@
+python manage.py makemigrations -----to create makemigrations
+
+
+python manage.py migrate ----for create tables
+
+
+python manage.py createsuperuser ---for create usernam
