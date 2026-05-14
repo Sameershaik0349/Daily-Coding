@@ -1,0 +1,59 @@
+===================================asynchronus===============
+
+it is akeyword which return before the function
+then the function call as sync function
+it is same has promise to handle the asynchronus operations
+in async function what ever data we have passed it wrapped into a promise
+
+normal vs async function:-
+async function return a promise
+normal function not return thee promise
+
+
+
+===================================awai==\\========================
+
+
+it is a keyword which return before the promise and it should be in async function
+no need to use .then we use await keyword
+it is not a single one it works with the combination of async
+
+
+
+
+
+
+
+
+
+
+
+*******=============================DESTRUCTING++============================*******
+it is es6 concept
+destructuring in js is a convieninet syntax to extract the object properties and array values which are assign to varibales
+
+
+object destructing 
+array destructing
+
+
+syntax:-
+let array={
+    name:'sameer',
+    age:21,
+    marks:"pass",
+    loc:"hyd"
+}
+
+let {name,age,marks,loc}=array
+console.log(name)
+
+
+
+
+
+
+
+
+
+===================UI VERSE for animated elementss=====================================

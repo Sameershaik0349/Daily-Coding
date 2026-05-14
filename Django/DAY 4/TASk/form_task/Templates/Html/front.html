@@ -9,9 +9,9 @@
     <h2>{{messege}}</h2>
     <form method="post">
         {% csrf_token %}
-        <input type="text" placeholder="id" name="emp_id">
-        <input type="text" placeholder="name" name="emp_name">
-        <input type="text" placeholder="dep" name="emp_dep">
+        <input type="text" placeholder="id" name="emp_id"><br><br>
+        <input type="text" placeholder="name" name="emp_name"><br><br>
+        <input type="text" placeholder="dep" name="emp_dep"><br><br>
         <button>submit</button>
 
     </form>
@@ -28,7 +28,6 @@
             <td>{{x.emp_dep}}</td>
         </tr>
          {%endfor %}
-
     </table>
 </body>
 </html>

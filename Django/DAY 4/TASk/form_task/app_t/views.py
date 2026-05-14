@@ -15,7 +15,6 @@ def front(request):
         if emp_id=="" or emp_name=="" or emp_dep=="":
             messege ="fill all fields"
         else:
-
             employee_table.objects.create(
                 emp_id=emp_id,
                 emp_name=emp_name,
