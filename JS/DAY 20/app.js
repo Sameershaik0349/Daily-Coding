@@ -2,6 +2,8 @@
 //     return 's'     // async function return a prpmise
 // }
 
+import productsData from "./Data"
+
 
 
 // let a =data()
@@ -74,16 +76,16 @@
 // console.log(c)
 
 
+import productsData from "./Data.js"
 
 let parent= document.getElementById('parent')
-let productsData=fetch("https://dummyjson.com/products")
+
 
 
 async function dummy() {
     let a =await productsData
     let {products}=await a.json()
     
-
     let b=products.map((items)=>{
         return `<div id="cards">
             <img src="${items.thumbnail}" alt="" height=160>
@@ -95,4 +97,3 @@ async function dummy() {
     parent.innerHTML=b.join('')
 
 }
-dummy()

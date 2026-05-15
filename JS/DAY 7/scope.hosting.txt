@@ -10,7 +10,10 @@ functional scopes
 when we use var in function then we cant access outside of function  
 block scopes
 var only support local
-lexical scopes
+lexical scopes:-
+ a fucntion inside another function scope is called lexical scope
+ so outer function is only accept outerfunction varible not inner function
+ the inner fun can acess both outer and inner
 
 
 hoisting

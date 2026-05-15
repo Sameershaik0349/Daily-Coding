@@ -1,0 +1,47 @@
+=======================CALL back=================
+
+it is one of the way asynchronus operatins by using call back to handle asynchronus operations is ok but using nested call backs it will lead to "call back hell"
+
+here our code will increases horizontally not vertically this is called pyamid of DOOM
+
+inversion of control --nothing but loosing control of our program
+
+=======================CALL STACK====================================
+it is a plce where function works 
+all promises will start same time when we set a settimout
+based on await the first promise is resolved then only second promise will resolved
+
+
+=========================REST AND SPREAD OPEARATORS==================
+it is es6 concept
+it is denoted with three dots(...)
+rest opertor also called as rest paremeter
+it is a feature ti collect the inndefinite arguments and make them in an array format
+it must be the last paramter
+when the arguments are more than paarmter the rest of us will has indefinite arguments
+
+
+spread operator:-
+it denotes with three dots(...)
+it iis used to spread out the object properties and array values into individual values
+=
+
+
+========================CLOSURES========================\
+
+it is nothing but a function which remember its varibles even after the function execution
+
+
+
+=====================MODULE=========================
+it is a js file which contains varibles, condition, and funtion
+
+make that file reusable 
+
+import and export
+
+export -use to send the data
+import - retrive the data
+
+syntax:- 
+type="module"  ------for connection in html 

@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body{
+            background-color: black;
+        }
         #parent{
             display: flex;
             flex-wrap:wrap;
@@ -17,13 +20,16 @@
             border-radius: 20%;
             text-align: center;
             margin: 2px;
+            background-color: white;
         }
     </style>
 </head>
 <body>
-    <button onclick="dummy()">show products</button>
+    <center>
+        <button onclick="dummy()">show products</button>
+    </center>
     <div id="parent">
     </div>
-    <script src="./app.js"></script>
+    <script src="./app.js" type="module"></script>
 </body>
 </html>
