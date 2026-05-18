@@ -1,0 +1,21 @@
+CEA -create react app
+vite+react
+
+old version:-
+npx create-react-app-myapp
+
+npm start ---to run
+
+
+
+new version:-
+
+npm create vite@latest filename
+
+select frame work:-
+react
+select variant:-
+javascript
+
+
+npm run dev -----to run
