@@ -1,0 +1,77 @@
+==========================REACT=================================================
+
+it is java script library to bulid user interfaces (ui) by using reusable components
+
+it is manily used for single page application(spa)
+
+it is babble languge 
+
+=========================REACT Features=========================
+
+components based archietecture
+single page applicationn ---(SPA)
+jsx------(javascript xml)
+high performance
+efficient rendering ----only specfic rendering
+virtual dom -
+uni-directional data flow
+
+
+--------------------------------------------
+
+what is componenet:-
+a  piece of ui
+
+reusbale componenet:-
+you can write once reuse it any where
+------------------------------------------
+
+jsx----file name
+javascript extensible markup language
+we can write our html code inside the javascript
+
+-----------------------Strict Rules-----------------
+
+<br>
+<hr>
+single tages must be closed
+-----------------------Babble languge----------------
+react is not a compiler or interpreater
+it depends on browser toools
+
+Babble languge:-
+bable is transpiler
+here transpiler will convert the es6 into es5  ---to usse any where
+
+transpiler--which converts one version to another version in the same lanaguge
+
+-----------------------Virtual dom------------------
+it is a copy of real dom
+virtual will change onlt updated parts not the entire ui and without reloading
+
+who devloped react?
+jordan walke 
+he is a facebook devolper
+
+devloped at meta facebook
+
+history :-
+creation -2011
+release -2013
+react-native -2015
+fragaments,reconcillation -2017
+react hooks ****
+react v18 -2022
+
+current version -19.2
+
+
+old version -CRA -create react app 
+it takes lot of time
+
+
+
+
+new version -vite+react 
+
+
