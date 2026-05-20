@@ -19,3 +19,108 @@ javascript
 
 
 npm run dev -----to run
+
+npm create vite@latest filename -- --template react
+
+
+
+
+FILE-----------
+
+------node modules--
+intalled packages  by npm 
+--------------public folder------------
+we can add our multimedia content
+
+-------------Src-------
+we have to write our react in this source code
+            ----------AASSESTs---------------------
+            we store multmedia related files
+app.css --for css code
+app.jsx --it is the first rendering file our react
+        LIKE FIRST RENDERING FILE
+index.css --can use app.css or this for css styling
+main.jsx --it is the entry point for react which connects with html file  
+
+---------------------------gitignore-------------
+which contains ignoring files
+---------------------------eslint.config.js------
+
+which is use for debugging purpose befor running the react app
+
+-------------------------index.html-------------------
+it is root file to react
+
+-------------------------packages.lock.json------------
+exact version of our packages which are we installed
+-------------------------package.json------------------
+which contains installed packages
+--------------------readME.md------------------
+which conatains project decription
+--------------------vite.config.js----------------
+which contains extra plugging to improve the react performance
+
+
+
+
+
+
+
+
+
+
+
+
+================================DAY 2======================================
+
+
+
+<></>-------fragements are used in react withou add ing extra node to the dom
+<react.fragements/>
+
+
+types of components:_
+
+Functional components
+class components:-
+
+
+
+
+
+======================class components:-=======================
+which are use befor 2018
+which are not easy to understand
+complec logic
+life cycle methods are used in class components
+class components work based on some keywords this,constructot,super keywords are used
+class components are state full components
+
+
+
+
+-======================Functional components==============
+which are used afte 2018
+which are easy to understandno code complexity
+reacy hooks are used in functional components
+there are no keywords
+function components are statless--
+ statless--it means without using hooks
+ sttateful ---using hooks
+
+
+
+
+ ===============use state================
+
+ it is one of the react hook concept
+
+ it is used to store and update the value
+
+
+ syntax-:-
+ let [state,setstate]= useState(initial value)
+
+ state =initial value
+ state= 0   -----storing in varibele state //it can be in any dtattype
+ setstate is the function to update teh state

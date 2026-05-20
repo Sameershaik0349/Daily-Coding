@@ -16,9 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from crud_app.views import crud
+from crud_app.views import crud,up_del,delete
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("",crud,name="crud")
+    path("",crud,name="crud"),
+    path("update/<int:id>",up_del,name="up_del"),
+    path('delete/<int:id>/', delete, name="del")
+    
 ]

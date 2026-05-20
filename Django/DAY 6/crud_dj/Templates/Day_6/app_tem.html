@@ -14,6 +14,8 @@
             <th>Emp_name</th>
             <th>Emp_age</th>
             <th>Emp_email</th>
+            <th>Emp_update</th>
+            <th>Emp_del</th>
         </tr>
         {% for x in data %}
         <tr>
@@ -21,6 +23,8 @@
             <td>{{x.emp_name}}</td>
             <td>{{x.emp_age}}</td>
             <td>{{x.emp_email}}</td>
+            <td><a href="{% url 'up_del' i.id %}">Update</a></td>
+            <td><a href="{% url 'del' i.id %}">Delete</a></td>
         </tr>
         {% endfor %}
         <tr>
@@ -30,11 +34,6 @@
             <td>{{x.emp_sal}}</td>
             <td>{{x.emp_mail}}</td>
         </tr>
-        <form method="post">
-            {% csrf_token %}
-            {{form.as_p}}
-            <button>Push</button>
-        </form>
     </table>
 </body>
 
