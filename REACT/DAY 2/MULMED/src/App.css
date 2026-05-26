@@ -189,3 +189,10 @@
   background-color:darkgrey;
   padding: 11px;
 }
+
+.parent{
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 20px;
+  align-items: center;
+}

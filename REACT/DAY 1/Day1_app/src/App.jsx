@@ -4,17 +4,17 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 
-// import { Home } from './Components/Home'
-import { Count } from './Components/Count'
-// import { NAV } from  './Components/Nav'
+import { Home } from './Components/Home'
+// import { Count } from './Components/Count'
+import { Nav } from  './Components/Nav'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      {/* <Nav/>
-      <Home/> */}
-      <Count/>
+      <Nav/>
+      <Home/>
+      {/* <Count/> */}
     </>
   )
 }
