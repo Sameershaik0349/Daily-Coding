@@ -2,3 +2,8 @@ Babble languge:-
 bable is transpiler
 here transpiler will convert the es6 into es5  ---to usse any where
 transpiler--which converts one version to another version in the same lanaguge
+
+
+
+props
+prop drilling:-it menas from parent to child sending the data 

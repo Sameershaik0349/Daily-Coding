@@ -1,0 +1,115 @@
+propes:-
+
+they are know has properties
+it is used to pass the data to one component to another compoenent
+which means parent to child not child to parent  but there is a communnication between them
+props are readable
+props are immutables
+one way data binding 
+unidirectional data flow
+
+
+types of patterns:-
+standard props
+import { data } from "framer-motion/client"
+
+export const Child=(props)=>{
+    return(
+        <>
+        <center>
+        <h1>this is child <span style={{color:"cyan"}}>{props.data}</span></h1>
+        </center>
+        </>
+    )
+}
+
+----------------------------------
+import { Child } from "./Child"
+export const Prop = () => {
+    let data ="this is props"
+    return (
+        <>
+            <center>
+                <div className="card p-5 m-5 w-50 border border-dark border-3 text-primary">
+                    <h1 className="parent">this is parent</h1>
+                    <Child data={data}/>  
+                </div>
+            </center>
+        </>
+    )
+}
+-----------------------------------------------------------------
+destructuring props
+import { Child } from "./Child"
+let data="this is destructing"
+
+export const Prop = () => {
+    return (
+        <>
+            <center>
+                <div className="card p-5 m-5 w-50 border border-dark border-3 text-primary">
+                    <h1 className="parent">this is parent</h1>
+            <Child data={data}/>
+                </div>
+            </center>
+        </>
+    )
+}
+
+------------------------------------------------
+export const Child=({data})=>{
+    return(
+        <>
+        <center>
+        <h1>this is child <span style={{color:"cyan"}}>{data}</span></h1>
+        </center>
+        </>
+    )
+}
+
+---------------------------------------------------------
+propdrilling:-
+pass the data to the nested compoenent unneeccsarily 
+---------------------------------------------
+import { Child } from "./Child"
+
+export const Prop = () => {
+    let data="destructing"
+    return (
+        <>
+            <center>
+                <div className="card p-5 m-5 w-50 border border-dark border-3 text-primary">
+                    <h1 className="parent">this is parent</h1>
+            <Child name={data}/>
+                </div>
+            </center>
+        </>
+    )
+} ----------------------------------------------
+// import { data } from "framer-motion/client"\
+import { data } from "framer-motion/client"
+import { Subchild } from "./Subchild"
+import { color } from "framer-motion"
+
+export const Child=({name})=>{
+    return(
+        <>
+        <center>
+        <h1>this is child <span style={{color:"cyan"}}>{name}</span></h1>
+        <Subchild hell={name}/>
+        </center>
+        </>
+    )
+}
+-------------------------------------
+
+
+export const Subchild=({hell})=>{
+    return(
+        <>
+        <h1>Subchild <span style={{color:"red"}}>{hell}</span></h1>
+        </>
+    )
+}
+----------------------------------------------
+defalut prop
